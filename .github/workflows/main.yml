@@ -1,0 +1,7 @@
+name:Simple CI
+on:push
+jobs:build
+  runs on: ubuntu latest
+  steps:
+    -name:print message
+    run:echo "CI Pipeline running"
